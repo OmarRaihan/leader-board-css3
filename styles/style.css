@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 70px;
     width: 100%;
     background: #562EFF;
     }
@@ -25,25 +25,28 @@ header{
 .idea{
     display: flex;
     align-items: center;
-    margin-left: 850px;
+    margin-left: 23.5%;
 }
 .heading{
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 25px;
     color: white;
     font-weight: 500;
 }
 nav{
     display: flex;
-    margin-right: 850px;
+    margin-right: 23.5%;
 }
 #nav-img{
     width: 51px;
     height: 51px;
     margin-left: 16px;
     
-}  
-nav ul li a{
+} 
+nav li{
+    list-style: none;
+}
+nav ul a{
     text-decoration: none;
     font-size: 18px;
     margin-right: 20px;
